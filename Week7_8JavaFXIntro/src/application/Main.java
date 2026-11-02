@@ -44,9 +44,17 @@ public class Main extends Application {
 		pane.add(new TextField(), 1, 1);
 		pane.add(new Label("Last Name:"), 0, 2);
 		pane.add(new TextField(), 1, 2);
+	
+		/*
+		 * Added for class to play!!
+		 */
+		pane.add(new Label("Age:"), 0, 3);
+		pane.add(new TextField(), 1, 3);
+		
+		
 
 		Button btAdd = new Button("Add Name");
-		pane.add(btAdd, 1, 3);
+		pane.add(btAdd, 1, 4);
 		GridPane.setHalignment(btAdd, HPos.RIGHT);
 
 		// Create a scene and place it in the stage
